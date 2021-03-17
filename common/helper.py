@@ -9,5 +9,11 @@ def get_argparser():
 
 
 def print_out(out: str):
+    # Ensure that we're working with a string
+    try:
+        out = out.decode()
+    except (UnicodeDecodeError, AttributeError):
+        pass
+    
     for l in out.split('\n'):
         print(l)
