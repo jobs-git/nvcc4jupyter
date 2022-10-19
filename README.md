@@ -23,3 +23,6 @@ V2 brings support of multiple source and header files.
 %%cuda_run
 # This line just to bypass an exeption and can contain any text
 ```
+
+### patched
+This plug-in was patched in order to work with COSC 407 assignments, specifically A6 and A7
