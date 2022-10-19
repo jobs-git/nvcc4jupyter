@@ -1,11 +1,4 @@
 ## NVCC Plugin for Jupyter notebook
-
-### V2 is available
-
-V2 brings support of multiple source and header files.
-
-##### Usage
-
 - Load Extension
 > `%load_ext nvcc_plugin`
 
@@ -24,5 +17,8 @@ V2 brings support of multiple source and header files.
 # This line just to bypass an exeption and can contain any text
 ```
 
-### patched
-This plug-in was patched in order to work with COSC 407 assignments, specifically A6 and A7
+### Credit
+This repo is forked from https://github.com/andreinechaev/nvcc4jupyter 
+
+### Patched
+The plugin in this repo was patched in order to work with COSC 407 assignments, specifically A6 and A7
