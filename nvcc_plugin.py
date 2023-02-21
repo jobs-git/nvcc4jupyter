@@ -1,4 +1,3 @@
-from v1.v1 import NVCCPlugin as NVCC_V1
 from v2.v2 import NVCCPluginV2 as NVCC_V2
 
 
